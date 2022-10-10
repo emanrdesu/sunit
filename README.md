@@ -1,4 +1,4 @@
-smart-units
+sunit - Smart Units
 ===========
 
 A command-line units converter. (written in Sidef)
