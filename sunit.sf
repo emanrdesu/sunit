@@ -7,7 +7,7 @@
 # Original Author: Daniel "Trizen" Șuteu
 # License: GPLv3
 # Date: 17 May 2014
-# Edit: 07 August 2020
+# Edit: 10 October 2022
 # https://github.com/emanrdesu/sunit
 
 # A pretty clever command-line units converter (written in Sidef).
@@ -514,7 +514,7 @@ if (__FILE__ == __MAIN__) {
                 Sys.exit(0)
             }
             when ('-v') {
-                say "smart-units #{VERSION}"
+                say "sunits #{VERSION}"
                 Sys.exit(0)
             }
             default {
@@ -529,7 +529,7 @@ if (__FILE__ == __MAIN__) {
 
     if (interactive) {
         print <<-"EOT"
-        Welcome to smart-units #{VERSION} in interactive mode.
+        Welcome to sunit #{VERSION} in interactive mode.
         EOT
         loop {
             var line = read(">> ", String) \\ break
